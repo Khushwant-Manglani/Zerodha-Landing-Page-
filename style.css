@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #424242;
+}
+
+/* body */
+
+.content {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter",serif;
+}
+
+/* header */
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 200px;
+  box-shadow: 2px 1px 2px rgba(0,0,0,0.10);
+}
+
+/* header-left */
+
+.zerodha-logo img {
+  width: 135px;
+}
+
+/* header right */
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links ul li {
+  padding: 0px 25px;
+}
+
+/* Links    */
+
+.navbar-links ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Menu  */
+
+.navbar-links ul li .menu .menu-bar {
+  background-color: #424242;
+  padding: 1.2px 9px;
+  margin: 2px 0px 3px 0px;
+  cursor: pointer;
+}
+
+.navbar-links ul li a:hover {
+  color: #387ed1;
+}
+
+/* main  */
+
+/* Landing Image */
+
+.main-content {
+  padding: 70px 250px 0px 250px;
+}
+
+.main-content .landing-page .landing-image {
+  padding: 0px 80px 35px 100px;
+}
+
+.landing-page .landing-image img {
+  width: 800px;
+}
+
+/* Landing text  */
+
+.main-content .landing-page .landing-text {
+  line-height: 1.8;
+}
+
+.main-content .landing-page .landing-text h1 {
+  padding-left: 320px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main-content .landing-page .landing-text h5 {
+  padding-left: 170px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Sign up button */
+
+.main-content .landing-page .landing-button {
+  padding-top: 50px;
+  margin-left: 420px;
+}
+
+.main-content .landing-page .landing-button a {
+  text-decoration: none;
+  color: white;
+  background-color: #387ed1;
+  padding: 12px 27px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main-content .landing-page .landing-button a:hover {
+  background-color: black;
+}
